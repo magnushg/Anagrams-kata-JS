@@ -26,13 +26,4 @@ TestCase("Noanagrams", {
 
         assertEquals(2, found["arw"].length);
     }
-//    "test should find 1 anagram group with 2 words in word collection with duplicate words": function () {
-//        var anagramsFinder = new anagrams.AnagramsFinder();
-
-//        var found = anagramsFinder.find(new Array("love", "war", "peace", "raw", "raw"));
-
-//        assertEquals(2, found["arw"].length);
-//    }
 });
-
-//jstestdriver.console.log("JsTestDriver", anagramsFinder.find("Magnus"));

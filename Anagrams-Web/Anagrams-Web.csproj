@@ -51,15 +51,20 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\style.css" />
+    <Content Include="data\wordlist.txt" />
     <Content Include="Global.asax" />
+    <Content Include="img\ajax-loader.gif" />
     <Content Include="Scripts\lib\jquery-1.7.2.min.js" />
     <Content Include="Scripts\src\AnagramsFinder.js" />
     <Content Include="Scripts\src\AnagramsView.js" />
-    <Content Include="Scripts\src\underscore-min.js" />
+    <Content Include="Scripts\lib\underscore-min.js" />
     <Content Include="Scripts\tests\AnagramsTests.js">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
